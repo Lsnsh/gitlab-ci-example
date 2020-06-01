@@ -1,0 +1,12 @@
+# 工作名称
+job-test:
+  # 阶段
+  stage: test
+  # 触发条件：test 分支更新时
+  only:
+    - test
+  # 脚本
+  script:
+    - npm install
+    - npm run build
+    - npm run deploy-test
