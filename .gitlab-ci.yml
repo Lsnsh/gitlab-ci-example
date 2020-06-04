@@ -8,6 +8,8 @@ job-test:
   # 指定工作给具有特定标签的 Runners
   tags:
     - runner-001-tag
+  before_script:
+    - whoami
   # 脚本
   script:
     - npm install
