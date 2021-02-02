@@ -1,7 +1,7 @@
 {
   "name": "gitlab-ci-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "使用 GitLab CI 的示例项目",
   "main": "index.js",
   "scripts": {
     "deploy-test": "build/deploy-test.sh",
