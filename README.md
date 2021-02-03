@@ -424,8 +424,8 @@ chown gitlab-runner /www/test/gitlab-ci-example
 ## 总结
 
 至此，`CI` 终于可以跑通了，部署后页面的内容是这样的，[点击查看][7]：
-README/9.jpg}
-![]()
+
+![9.jpg](./static/images/README/9.jpg)
 
 通过 `.gitlab-ci.yml` 配置文件，你可以在构建的各个阶段做处理，比如你可以在 `before_script` 和 `after_script` 阶段调用钉钉机器人接口，及时将部署状态同步到个人/群：
 
